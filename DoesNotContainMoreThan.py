@@ -1,3 +1,5 @@
+# Function that takes a list of integers and a lone integer. 
+# The list is then returned without any of the integers that appears more than the lone integer from parameter.
 def solution(data, n):
     mainlist = []
     mainlist.extend(data)
