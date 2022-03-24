@@ -1,6 +1,14 @@
+# A function to create a perfect binary tree with the specified height and then find the number above all numbers in the list provided.
+# Example of how a binary tree created by this function would look like below.
+#        7
+#      3   6
+#    1 2   4 5
+#
+# If 3 was inserted as the height and the list had the integers [1, 3, 7, 4], then the output would be [3, 7, -1, 6]. The -1 is because there is nothing above 7.
+
 import gc
 
-class Node():
+class Node():                   # Class that represents a node in the binary tree.
     def __init__(self):
         self.left = None
         self.right = None
